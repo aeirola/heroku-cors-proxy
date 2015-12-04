@@ -1,0 +1,26 @@
+{
+  "name": "heroku-cors-proxy",
+  "version": "1.0.0",
+  "description": "CORS proxy for Heroku",
+  "author": "Axel Eirola <axel.eirola@iki.fi>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeirola/heroku-cors-proxy"
+  },
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.2.5"
+  }
+}
